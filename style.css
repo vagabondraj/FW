@@ -1,0 +1,140 @@
+body
+{
+    background-color: #8062d6;
+}
+.navbar
+{
+    height: 60px;
+    background-color: hotpink;
+    color: blue;
+    text-align: center;
+    border: 10px dotted darkorchid;
+    font-size: 30px;
+    animation-name: navbar;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+}
+@keyframes navbar
+{
+    0%{
+        background-color: hotpink;
+    }
+    10%{
+        background-color: #007185;
+    }
+    20%{
+        background-color: violet;
+    }
+    30%{
+        background-color: #272829;
+       
+    }
+    40%{
+        background-color: #4942e4;
+    }
+    50%{
+        background-color: #8062d6;
+    }
+    60%{
+        background-color: #4d554d;
+        
+    }
+    70%{
+        background-color: #b799ff;
+    }
+    80%{
+        background-color: #1d5b79;
+    }
+    90%{
+        background-color: cornflowerblue;
+        
+    }
+    100%{
+        background-color: skyblue;
+    }
+}
+.welcome
+{
+    height: 100px;
+    width: 100%;
+    background-color: skyblue;
+    font-size: 25px;
+    border: 15px dashed rebeccapurple;
+    text-align: center;
+    margin-top: 0px;
+    animation-name: welcome;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes welcome
+{
+    0%{
+        background-color: #007185;
+     
+    }
+    20%{
+        background-color: crimson;
+    }
+    40%{
+        background-color: #374259;
+
+    }
+    60%{
+        background-color: hotpink;
+        
+    }
+    80%{
+        background-color: #1d5b79;
+    }
+    100%{
+        background-color: #606c5d;
+        
+    }
+}
+.pic
+{
+    display: inline-block;
+    margin-left: 30px;
+}
+img
+{
+    margin-top: 20px;
+    background-color: #374259;
+    height: 800px;
+    width: 520px;
+    border-radius: 30%;
+    border: 20px dashed midnightblue;
+}
+.pic2
+{
+    margin-left: 80px;
+}
+
+.contact
+{
+  font-size: 20px;
+  color: red;
+}
+.insta
+{
+    font-size: 20px;
+    color: deeppink;
+    
+}
+.about
+{
+    font-size: 20px;
+    color: blue;
+    
+}
+
+.foot
+{
+    height: 50px;
+    width: 100%;
+    background-color: #374259;
+    display: flex;
+    justify-content: space-evenly;
+}
